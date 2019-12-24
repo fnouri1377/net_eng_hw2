@@ -1,0 +1,46 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+.listElem {
+    background-color: rgb(223, 134, 134);
+    font-weight: bold;
+    padding: 20px 40px;
+    max-width: 30%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.listElem :hover {
+    background-color: antiquewhite;
+}
+
+.formContainer {
+    padding: 30px;
+    background-color: aliceblue;
+    height: auto;
+    max-width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid rgb(112, 165, 218);
+}
+
+.submitButton {
+    background-color: rgb(112, 165, 218);
+    height: auto;
+    max-width:30%;
+    margin: auto;
+}
+
+.formTitle {
+    font-weight: bolder;
+    font-size: larger;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
